@@ -1,0 +1,14 @@
+yarn create-react-app fighterz --template redux-typescript
+yarn add rsuite
+delete features folder
+clean app.tsx (import and html) and store.ts (import and reducers)
+yarn add @apollo/client graphql
+yarn add styled-components 
+yarn add -D @types/styled-components
+add scripts in package.json : 
+"     "schema:download": "npx apollo service:download --endpoint=http://localhost:3000/graphql ./src/app/graphql/graphql-schema.json"       "
+(Si fonctionne pas : delete node_modules, npm install et recommencer)
+npm install apollo -g
+npm install graphql -g
+ 
+
